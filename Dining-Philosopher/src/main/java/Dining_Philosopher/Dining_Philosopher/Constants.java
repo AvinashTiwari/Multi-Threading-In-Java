@@ -7,7 +7,7 @@ public class Constants {
 	
 	public static final int NUMBER_OF_PHILOSOPHER = 5;
 	public static final int NUMBER_OF_CHOP_STICK = 5;
-	public static final int SIMULATION_ITERATION = 1000;
+	public static final int SIMULATION_RUNNING_TIME = 5000;
 
 
 }

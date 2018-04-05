@@ -7,32 +7,26 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Book {
 	private int id;
 	private Lock lock;
-	
-	public Book(int id){
+
+	public Book(int id) {
 		this.id = id;
-		
+
 		lock = new ReentrantLock();
 	}
-	
-	public void read(Student student) throws InterruptedException
-	{
-		lock.tryLock(10, TimeUnit.MILLISECONDS);
+
+	public void read(Student student) throws InterruptedException {
+		lock.tryLock(1, TimeUnit.MILLISECONDS);
 		System.out.println(student + " Start Readin " + this);
 		Thread.sleep(2000);
 		lock.unlock();
 		System.out.println(student + " Finished reading " + this);
 
-		
 	}
 
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "Book #"+id;
+		return "Book #" + id;
 	}
-	  
-	
-	
-	
 
 }

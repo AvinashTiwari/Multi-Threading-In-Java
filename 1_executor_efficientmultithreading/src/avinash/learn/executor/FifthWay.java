@@ -16,6 +16,6 @@ public class FifthWay {
 					e.printStackTrace();
 				}
 			}			
-		}});
+		}}).start();
 	}
 }

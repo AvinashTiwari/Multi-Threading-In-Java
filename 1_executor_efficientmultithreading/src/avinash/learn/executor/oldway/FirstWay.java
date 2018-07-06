@@ -1,19 +1,19 @@
-package avinash.learn.executor;
+package avinash.learn.executor.oldway;
 
 import java.util.concurrent.TimeUnit;
 
-public class SecondWay {
+public class FirstWay {
 	public static void main(String[] args) {
 		System.out.println("main thread starts here");
-		new SecondTask().start();
-		Thread t = new SecondTask();
-        t.start();
+		new FirstTask();
+		Thread t = new FirstTask();
+
 		System.out.println("main thread ends here");
 
 	}
 }
 
-class SecondTask extends Thread {
+class FirstTask extends Thread {
 	private static int count = 0;
 	private int id;
 	@Override
@@ -29,7 +29,8 @@ class SecondTask extends Thread {
 		}
 	}
 
-	public SecondTask() {
+	public FirstTask() {
 		this.id  = count++;
- 	}
+		this.start();
+	}
 }

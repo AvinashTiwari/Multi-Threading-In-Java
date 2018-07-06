@@ -1,4 +1,4 @@
-package avinash.learn.executor;
+package avinash.learn.executor.oldway;
 
 import java.util.concurrent.TimeUnit;
 

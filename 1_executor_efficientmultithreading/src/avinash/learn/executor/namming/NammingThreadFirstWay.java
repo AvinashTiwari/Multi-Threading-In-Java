@@ -1,10 +1,15 @@
 package avinash.learn.executor.namming;
 
+import avinash.learn.executor.common.LoopTaskB;
+
 public class NammingThreadFirstWay {
 	public static void main(String[] args) {
-      System.out.println("Main thread Start");
-      
-      System.out.println("End thread Start");
+		String currentThreadName = Thread.currentThread().getName();
+      System.out.println(currentThreadName + " Main thread Start");
+      new Thread(new LoopTaskB()).start();
+      Thread t2 =       new Thread(new LoopTaskB());
+      t2.start();
+      System.out.println(currentThreadName + " End thread Start");
 
 	}
 }

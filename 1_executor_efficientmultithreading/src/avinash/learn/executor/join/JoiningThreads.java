@@ -32,7 +32,7 @@ public class JoiningThreads {
 		t3.join();
 		System.out.println("[ " + currentThreadName + " ] Joined " + t3.getName());
 		
-		t4join();
+		t4.join();
 		System.out.println("[ " + currentThreadName + " ] Joined " + t4.getName());
 
 		System.out.println("[ " + currentThreadName + " ] Main Thread ends Here");

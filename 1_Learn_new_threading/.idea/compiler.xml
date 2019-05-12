@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="1-thread-inheritance" />
         <module name="hello-world-thread" />
+        <module name="1-thread-inheritance" />
+        <module name="2_thread-deamon" />
       </profile>
     </annotationProcessing>
   </component>

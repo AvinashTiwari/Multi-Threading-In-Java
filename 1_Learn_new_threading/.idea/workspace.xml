@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cfd2745-3ed1-4d4e-806f-1f7eae202d4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../1-thread-inheritance/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadInhertiance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadVault.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2_thread-deamon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2_thread-deamon/src/main/java/DeamonSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2_thread-deamon/src/main/java/InterrupptSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2_thread-deamon/src/main/java/LongComputationSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -14,6 +14,7 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../hello-world-thread/target/" />
     <ignored path="$PROJECT_DIR$/../1-thread-inheritance/target/" />
+    <ignored path="$PROJECT_DIR$/../2_thread-deamon/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,31 +27,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ThreadInhertiance.java">
+        <entry file="file://$PROJECT_DIR$/../2_thread-deamon/src/main/java/InterrupptSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="85">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../2_thread-deamon/src/main/java/LongComputationSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ThreadVault.java">
+        <entry file="file://$PROJECT_DIR$/../2_thread-deamon/src/main/java/DeamonSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#391#399#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1731#1732#0" expanded="true" />
-                <element signature="e#1767#1768#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -75,6 +77,9 @@
         <option value="$PROJECT_DIR$/../hello-world-thread/src/main/java/newmain.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadInhertiance.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadVault.java" />
+        <option value="$PROJECT_DIR$/../2_thread-deamon/src/main/java/InterrupptSample.java" />
+        <option value="$PROJECT_DIR$/../2_thread-deamon/src/main/java/LongComputationSample.java" />
+        <option value="$PROJECT_DIR$/../2_thread-deamon/src/main/java/DeamonSample.java" />
       </list>
     </option>
   </component>
@@ -98,28 +103,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="threading-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1_Learn_new_threading" type="462c0819:PsiDirectoryNode" />
+              <item name="2_thread-deamon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="threading-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1_Learn_new_threading" type="462c0819:PsiDirectoryNode" />
+              <item name="2_thread-deamon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="threading-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1_Learn_new_threading" type="462c0819:PsiDirectoryNode" />
+              <item name="2_thread-deamon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="threading-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1_Learn_new_threading" type="462c0819:PsiDirectoryNode" />
+              <item name="2_thread-deamon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -128,7 +133,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,7 +157,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadVault">
+  <component name="RunManager" selected="Application.LongComputationSample">
+    <configuration name="InterrupptSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterrupptSample" />
+      <module name="2_thread-deamon" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongComputationSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongComputationSample" />
+      <module name="2_thread-deamon" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadInhertiance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadInhertiance" />
       <module name="threading-samples" />
@@ -186,9 +205,13 @@
       <item itemvalue="Application.newmain" />
       <item itemvalue="Application.ThreadInhertiance" />
       <item itemvalue="Application.ThreadVault" />
+      <item itemvalue="Application.InterrupptSample" />
+      <item itemvalue="Application.LongComputationSample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongComputationSample" />
+        <item itemvalue="Application.InterrupptSample" />
         <item itemvalue="Application.ThreadVault" />
         <item itemvalue="Application.ThreadInhertiance" />
         <item itemvalue="Application.newmain" />
@@ -210,9 +233,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -224,7 +246,7 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,17 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadInhertiance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ThreadVault.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -319,6 +330,41 @@
             <element signature="e#1731#1732#0" expanded="true" />
             <element signature="e#1767#1768#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadInhertiance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2_thread-deamon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2_thread-deamon/src/main/java/InterrupptSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2_thread-deamon/src/main/java/LongComputationSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2_thread-deamon/src/main/java/DeamonSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>

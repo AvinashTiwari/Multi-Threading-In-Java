@@ -12,6 +12,7 @@
         <module>../hello-world-thread</module>
         <module>../1-thread-inheritance</module>
         <module>../2_thread-deamon</module>
+        <module>../3_thread-join-sample</module>
     </modules>
 
 

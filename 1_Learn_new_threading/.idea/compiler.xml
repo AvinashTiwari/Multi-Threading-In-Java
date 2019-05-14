@@ -9,6 +9,7 @@
         <module name="hello-world-thread" />
         <module name="1-thread-inheritance" />
         <module name="2_thread-deamon" />
+        <module name="3_thread-join-sample" />
       </profile>
     </annotationProcessing>
   </component>

@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cfd2745-3ed1-4d4e-806f-1f7eae202d4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../4_performance-optimazation/src/main/java/learn/avinash/thread/ThroughputSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4_performance-optimazation/src/main/resources/performance_test_plan.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4_performance-optimazation/src/main/resources/war_and_peace.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/../4_performance-optimazation/src/main/java/learn/avinash/thread/ThroughputSample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -258,9 +255,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28322148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2872483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -413,6 +409,9 @@
     <entry file="file://$PROJECT_DIR$/../4_performance-optimazation/src/main/out/many-flowers.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../4_performance-optimazation/src/main/resources/performance_test_plan.jmx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/../4_performance-optimazation/src/main/java/learn/avinash/thread/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -423,13 +422,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../4_performance-optimazation/src/main/resources/performance_test_plan.jmx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../4_performance-optimazation/src/main/java/learn/avinash/thread/ThroughputSample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

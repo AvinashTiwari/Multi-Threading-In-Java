@@ -11,6 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>performance-optimazation</artifactId>
+    <packaging>pom</packaging>
     <build>
         <plugins>
             <plugin>
@@ -23,6 +24,9 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>../5_resource-sharning</module>
+    </modules>
 
 
 </project>

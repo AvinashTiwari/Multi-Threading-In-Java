@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="4_performance-optimazation" />
+        <module name="5_resource-sharning" />
         <module name="hello-world-thread" />
         <module name="1-thread-inheritance" />
         <module name="2_thread-deamon" />

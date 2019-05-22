@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cfd2745-3ed1-4d4e-806f-1f7eae202d4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../5_resource-sharning/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5_resource-sharning/src/main/java/learn/avinash/thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6_critical_Section_Sync/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6_critical_Section_Sync/src/main/java/learn/avinash/thread/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4_performance-optimazation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4_performance-optimazation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hello-world-thread/hello-world-thread.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-world-thread/hello-world-thread.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,6 +17,8 @@
     <ignored path="$PROJECT_DIR$/../3_thread-join-sample/target/" />
     <ignored path="$PROJECT_DIR$/../4_performance-optimazation/target/" />
     <ignored path="$PROJECT_DIR$/../5_resource-sharning/target/" />
+    <ignored path="$PROJECT_DIR$/../6_concurrency_performance_optimization/target/" />
+    <ignored path="$PROJECT_DIR$/../6_critical_Section_Sync/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,27 +31,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../5_resource-sharning/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/../6_critical_Section_Sync/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../5_resource-sharning/src/main/java/learn/avinash/thread/Main.java">
+        <entry file="file://$PROJECT_DIR$/../6_critical_Section_Sync/src/main/java/learn/avinash/thread/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
-                <element signature="e#1279#1280#0" expanded="true" />
-                <element signature="e#1559#1560#0" expanded="true" />
-                <element signature="e#1590#1591#0" expanded="true" />
-                <element signature="e#1625#1626#0" expanded="true" />
-                <element signature="e#1656#1657#0" expanded="true" />
-                <element signature="e#1689#1690#0" expanded="true" />
-                <element signature="e#1725#1726#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -79,6 +75,8 @@
         <option value="$PROJECT_DIR$/../4_performance-optimazation/src/main/java/learn/avinash/thread/Main.java" />
         <option value="$PROJECT_DIR$/../4_performance-optimazation/src/main/java/learn/avinash/thread/ThroughputSample.java" />
         <option value="$PROJECT_DIR$/../5_resource-sharning/src/main/java/learn/avinash/thread/Main.java" />
+        <option value="$PROJECT_DIR$/../6_critical_Section_Sync/pom.xml" />
+        <option value="$PROJECT_DIR$/../6_critical_Section_Sync/src/main/java/learn/avinash/thread/Main.java" />
       </list>
     </option>
   </component>
@@ -103,51 +101,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="threading-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5_resource-sharning" type="462c0819:PsiDirectoryNode" />
+              <item name="6_critical_Section_Sync" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="threading-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5_resource-sharning" type="462c0819:PsiDirectoryNode" />
+              <item name="6_critical_Section_Sync" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="threading-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5_resource-sharning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="threading-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5_resource-sharning" type="462c0819:PsiDirectoryNode" />
+              <item name="6_critical_Section_Sync" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="threading-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5_resource-sharning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5_resource-sharning/src/main/java/learn/avinash/thread" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../6_critical_Section_Sync/src/main/java/learn/avinash/thread" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -157,6 +140,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MultiThreading\Multi-Threading-In-Java\6_critical_Section_Sync\src\main\java\learn\avinash\thread" />
       <recent name="E:\MultiThreading\Multi-Threading-In-Java\5_resource-sharning\src\main\java\learn\avinash\thread" />
       <recent name="E:\MultiThreading\Multi-Threading-In-Java\4_performance-optimazation\src\main\resources" />
       <recent name="E:\MultiThreading\Multi-Threading-In-Java\3_thread-join-sample\src\main\java" />
@@ -174,14 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="InterrupptSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterrupptSample" />
-      <module name="2_thread-deamon" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="LongComputationSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongComputationSample" />
       <module name="2_thread-deamon" />
@@ -192,6 +169,26 @@
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
       <module name="5_resource-sharning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.avinash.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="6_concurrency_performance_optimization" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
+      <module name="6_concurrency_performance_optimization" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="learn.avinash.thread.*" />
@@ -215,13 +212,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadVault" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadVault" />
-      <module name="threading-samples" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="hello-world-thread" />
@@ -231,19 +221,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.main" />
-      <item itemvalue="Application.ThreadVault" />
-      <item itemvalue="Application.InterrupptSample" />
       <item itemvalue="Application.LongComputationSample" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LongComputationSample" />
-        <item itemvalue="Application.InterrupptSample" />
-        <item itemvalue="Application.ThreadVault" />
       </list>
     </recent_temporary>
   </component>
@@ -262,9 +252,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29127517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29932886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -440,13 +429,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../5_resource-sharning/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../5_resource-sharning/src/main/java/learn/avinash/thread/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#797#798#0" expanded="true" />
             <element signature="e#861#862#0" expanded="true" />
@@ -459,6 +445,23 @@
             <element signature="e#1689#1690#0" expanded="true" />
             <element signature="e#1725#1726#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../5_resource-sharning/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../6_critical_Section_Sync/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../6_critical_Section_Sync/src/main/java/learn/avinash/thread/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

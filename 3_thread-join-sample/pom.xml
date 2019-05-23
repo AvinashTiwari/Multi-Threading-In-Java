@@ -11,6 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>thread-join-sample</artifactId>
+    <packaging>pom</packaging>
     <build>
         <plugins>
             <plugin>
@@ -23,6 +24,9 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>../7_atomic-voliatile-metrics</module>
+    </modules>
 
 
 </project>

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cfd2745-3ed1-4d4e-806f-1f7eae202d4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../8_race-data-condition/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8_race-data-condition/src/main/java/learn/java/thread/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6cfd2745-3ed1-4d4e-806f-1f7eae202d4f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../hello-world-thread/target/" />
@@ -73,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/../8_race-data-condition/src/main/java/learn/java/thread/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="37" />
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -291,9 +284,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30268458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30268458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -313,7 +305,7 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -521,7 +513,7 @@
     <entry file="file://$PROJECT_DIR$/../8_race-data-condition/src/main/java/learn/java/thread/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="37" />
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>

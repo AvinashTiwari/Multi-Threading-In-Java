@@ -15,6 +15,7 @@
         <module>../3_thread-join-sample</module>
         <module>../4_performance-optimazation</module>
         <module>../6_concurrency_performance_optimization</module>
+        <module>../8_race-data-condition</module>
     </modules>
 
 

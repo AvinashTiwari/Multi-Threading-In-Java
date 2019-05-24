@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cfd2745-3ed1-4d4e-806f-1f7eae202d4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6_critical_Section_Sync/6_concurrency_performance_optimization.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7_atomic-voliatile-metrics/7_atomic-voliatile-metrics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7_atomic-voliatile-metrics/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../7_atomic-voliatile-metrics/src/main/java/learn/avinash/thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8_race-data-condition/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8_race-data-condition/src/main/java/learn/java/thread/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3_thread-join-sample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3_thread-join-sample/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/../6_concurrency_performance_optimization/target/" />
     <ignored path="$PROJECT_DIR$/../6_critical_Section_Sync/target/" />
     <ignored path="$PROJECT_DIR$/../7_atomic-voliatile-metrics/target/" />
+    <ignored path="$PROJECT_DIR$/../8_race-data-condition/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +55,25 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../7_atomic-voliatile-metrics/src/main/java/learn/avinash/thread/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../8_race-data-condition/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../8_race-data-condition/src/main/java/learn/java/thread/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -95,6 +108,7 @@
         <option value="$PROJECT_DIR$/../6_critical_Section_Sync/pom.xml" />
         <option value="$PROJECT_DIR$/../6_critical_Section_Sync/src/main/java/learn/avinash/thread/Main.java" />
         <option value="$PROJECT_DIR$/../7_atomic-voliatile-metrics/src/main/java/learn/avinash/thread/Main.java" />
+        <option value="$PROJECT_DIR$/../8_race-data-condition/src/main/java/learn/java/thread/Main.java" />
       </list>
     </option>
   </component>
@@ -119,15 +133,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="threading-samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8_race-data-condition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="threading-samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8_race-data-condition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="threading-samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8_race-data-condition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../7_atomic-voliatile-metrics/src/main/java/learn/avinash/thread" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../8_race-data-condition/src/main/java/learn/java/thread" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -137,11 +172,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MultiThreading\Multi-Threading-In-Java\8_race-data-condition\src\main\java\learn\java\thread" />
       <recent name="E:\MultiThreading\Multi-Threading-In-Java\7_atomic-voliatile-metrics\src\main\java\learn\avinash\thread" />
       <recent name="E:\MultiThreading\Multi-Threading-In-Java\6_critical_Section_Sync\src\main\java\learn\avinash\thread" />
       <recent name="E:\MultiThreading\Multi-Threading-In-Java\5_resource-sharning\src\main\java\learn\avinash\thread" />
       <recent name="E:\MultiThreading\Multi-Threading-In-Java\4_performance-optimazation\src\main\resources" />
-      <recent name="E:\MultiThreading\Multi-Threading-In-Java\3_thread-join-sample\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -156,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
       <module name="5_resource-sharning" />
@@ -203,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
-      <module name="4_performance-optimazation" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.java.thread.Main" />
+      <module name="8_race-data-condition" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learn.avinash.thread.*" />
+          <option name="PATTERN" value="learn.java.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,19 +260,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.main" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -256,8 +291,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3033557" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30268458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -277,7 +313,7 @@
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -479,6 +515,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../8_race-data-condition/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../8_race-data-condition/src/main/java/learn/java/thread/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -529,7 +575,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>3_thread-join-sample</last-edited>
+          <last-edited>8_race-data-condition</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

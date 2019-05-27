@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="9_LockingStrageryDeadLock" />
-        <module name="7_atomic-voliatile-metrics" />
+        <module name="5_resource-sharning" />
+        <module name="11_rentrant-lock-database" />
+        <module name="2_thread-deamon" />
         <module name="hello-world-thread" />
         <module name="1-thread-inheritance" />
         <module name="8_race-data-condition" />
-        <module name="2_thread-deamon" />
-        <module name="5_resource-sharning" />
+        <module name="7_atomic-voliatile-metrics" />
+        <module name="9_LockingStrageryDeadLock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

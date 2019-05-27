@@ -16,6 +16,7 @@
         <module>../4_performance-optimazation</module>
         <module>../6_concurrency_performance_optimization</module>
         <module>../8_race-data-condition</module>
+        <module>../10_reentrantlock</module>
     </modules>
 
 

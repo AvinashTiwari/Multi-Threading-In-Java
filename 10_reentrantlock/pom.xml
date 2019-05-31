@@ -26,6 +26,7 @@
     </build>
     <modules>
         <module>../11_rentrant-lock-database</module>
+        <module>../12_atomic-sample-one</module>
     </modules>
 
 

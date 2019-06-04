@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338a0fa0-34c6-4464-b7a5-335aec9908bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../2designmultithread/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2designmultithread/src/main/java/learn/avinash/thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3multi-thread-concurrency/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3multi-thread-concurrency/src/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3multi-thread-concurrency/src/main/java/learn/avinash/thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3multi-thread-concurrency/src/main/java/learn/avinash/thread/utils/IOUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../1-single-thread/target/" />
     <ignored path="$PROJECT_DIR$/../2designmultithread/target/" />
+    <ignored path="$PROJECT_DIR$/../3multi-thread-concurrency/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +27,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../2designmultithread/src/main/java/learn/avinash/thread/Main.java">
+        <entry file="file://$PROJECT_DIR$/../3multi-thread-concurrency/src/main/java/learn/avinash/thread/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="272">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../3multi-thread-concurrency/src/main/java/learn/avinash/thread/utils/IOUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -50,6 +65,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../1-single-thread/src/main/java/learn/avinash/thread/SingleThread.java" />
         <option value="$PROJECT_DIR$/../2designmultithread/src/main/java/learn/avinash/thread/Main.java" />
+        <option value="$PROJECT_DIR$/../3multi-thread-concurrency/src/a.txt" />
+        <option value="$PROJECT_DIR$/../3multi-thread-concurrency/src/main/java/learn/avinash/thread/utils/IOUtils.java" />
+        <option value="$PROJECT_DIR$/../3multi-thread-concurrency/src/main/java/learn/avinash/thread/Main.java" />
       </list>
     </option>
   </component>
@@ -73,45 +91,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2designmultithread" type="462c0819:PsiDirectoryNode" />
+              <item name="3multi-thread-concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2designmultithread" type="462c0819:PsiDirectoryNode" />
+              <item name="3multi-thread-concurrency" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2designmultithread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2designmultithread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2designmultithread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,7 +127,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
+      <module name="_3multi-thread-concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.avinash.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingleThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.SingleThread" />
       <module name="1-single-thread" />
@@ -146,6 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SingleThread" />
       </list>
     </recent_temporary>
@@ -166,7 +177,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -177,7 +188,7 @@
       <window_info id="Capture Tool" order="8" />
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -220,10 +231,44 @@
     <entry file="file://$PROJECT_DIR$/../2designmultithread/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../3multi-thread-concurrency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../2designmultithread/src/main/java/learn/avinash/thread/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../3multi-thread-concurrency/src/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../3multi-thread-concurrency/src/b.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../3multi-thread-concurrency/src/main/java/learn/avinash/thread/utils/IOUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../3multi-thread-concurrency/src/main/java/learn/avinash/thread/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -4,6 +4,25 @@ import learn.avinash.thread.utils.IOUtils;
 
 import java.io.*;
 
+class CopyTask implements  Runnable{
+    String sourceFile;
+    String destFile;
+
+    public CopyTask(String sourceFile, String destFile) {
+        this.sourceFile = sourceFile;
+        this.destFile = destFile;
+    }
+
+    public void run() {
+        try {
+            IOUtils.copyFile(sourceFile, destFile);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+}
+
 public class Main {
 
     public static void main(String[] args) throws IOException {
@@ -13,8 +32,11 @@ public class Main {
         String sourceFile2 = "E:\\MultiThreading\\Multi-Threading-In-Java\\2_New_Course_on_Threading\\3multi-thread-concurrency\\src\\b.txt";
         String destFile2 = "E:\\MultiThreading\\Multi-Threading-In-Java\\2_New_Course_on_Threading\\3multi-thread-concurrency\\src\\d.txt";
 
-        IOUtils.copyFile(sourceFile1, destFile1);
-        IOUtils.copyFile(sourceFile2, destFile2);
+
+        Thread t = new Thread(new CopyTask(sourceFile1, destFile1));
+        t.start();
+        t = new Thread(new CopyTask(sourceFile2, destFile2));
+        t.start();
 
 
     }

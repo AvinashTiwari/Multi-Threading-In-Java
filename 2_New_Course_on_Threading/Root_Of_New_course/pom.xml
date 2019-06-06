@@ -11,6 +11,7 @@
     <modules>
         <module>../1-single-thread</module>
         <module>../3multi-thread-concurrency</module>
+        <module>../4-sample-executor-service</module>
     </modules>
 
 

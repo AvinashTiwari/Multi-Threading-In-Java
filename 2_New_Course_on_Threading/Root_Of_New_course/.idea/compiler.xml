@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="2-design-multi-thread" />
         <module name="1-single-thread" />
+        <module name="4-sample-executor-service" />
         <module name="_3multi-thread-concurrency" />
       </profile>
     </annotationProcessing>

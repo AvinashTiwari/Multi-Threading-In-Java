@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../2designmultithread/pom.xml" />
+        <option value="$PROJECT_DIR$/../5-stop-thread-in-middle/pom.xml" />
       </list>
     </option>
   </component>

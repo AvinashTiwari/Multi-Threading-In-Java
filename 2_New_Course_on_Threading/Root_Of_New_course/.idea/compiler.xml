@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="5-stop-thread-in-middle" />
         <module name="2-design-multi-thread" />
         <module name="1-single-thread" />
         <module name="4-sample-executor-service" />

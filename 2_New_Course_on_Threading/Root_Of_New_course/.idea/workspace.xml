@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338a0fa0-34c6-4464-b7a5-335aec9908bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../5-stop-thread-in-middle/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5-stop-thread-in-middle/src/main/java/learn/avinash/thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-Internal-System-Thread-Group/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-Internal-System-Thread-Group/src/main/java/learn/avinash/thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-Daemon-Thread/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-Daemon-Thread/src/main/java/learn/avinash/thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8-callback-task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread/AnanmousCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,6 +20,9 @@
     <ignored path="$PROJECT_DIR$/../3multi-thread-concurrency/target/" />
     <ignored path="$PROJECT_DIR$/../4-sample-executor-service/target/" />
     <ignored path="$PROJECT_DIR$/../5-stop-thread-in-middle/target/" />
+    <ignored path="$PROJECT_DIR$/../6-Internal-System-Thread-Group/target/" />
+    <ignored path="$PROJECT_DIR$/../7-Daemon-Thread/target/" />
+    <ignored path="$PROJECT_DIR$/../8-callback-task/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +34,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../5-stop-thread-in-middle/src/main/java/learn/avinash/thread/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../8-callback-task/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+              <folding>
+                <element signature="e#85#86#0" expanded="true" />
+                <element signature="e#111#112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread/AnanmousCall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+              <folding>
+                <element signature="e#442#587#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,6 +92,10 @@
         <option value="$PROJECT_DIR$/../3multi-thread-concurrency/src/main/java/learn/avinash/thread/Main.java" />
         <option value="$PROJECT_DIR$/../4-sample-executor-service/src/main/java/learn/avinash/thread/Main.java" />
         <option value="$PROJECT_DIR$/../5-stop-thread-in-middle/src/main/java/learn/avinash/thread/Main.java" />
+        <option value="$PROJECT_DIR$/../6-Internal-System-Thread-Group/src/main/java/learn/avinash/thread/Main.java" />
+        <option value="$PROJECT_DIR$/../7-Daemon-Thread/src/main/java/learn/avinash/thread/Main.java" />
+        <option value="$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread/Main.java" />
+        <option value="$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread/AnanmousCall.java" />
       </list>
     </option>
   </component>
@@ -81,7 +119,52 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8-callback-task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8-callback-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8-callback-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8-callback-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8-callback-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8-callback-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="AnanmousCall.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -89,10 +172,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../4-sample-executor-service/src/main/java/learn/avinash/thread" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MultiThreading\Multi-Threading-In-Java\2_New_Course_on_Threading\8-callback-task\src\main\java\learn\avinash\thread" />
       <recent name="E:\MultiThreading\Multi-Threading-In-Java\2_New_Course_on_Threading\4-sample-executor-service\src\main\java\learn\avinash\thread" />
     </key>
   </component>
@@ -108,7 +192,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
+      <module name="6-Internal-System-Thread-Group" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.avinash.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
+      <module name="8-callback-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.avinash.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
       <module name="_3multi-thread-concurrency" />
@@ -137,6 +247,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SingleThread" />
       </list>
@@ -157,8 +269,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29127517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -272,7 +385,56 @@
     <entry file="file://$PROJECT_DIR$/../5-stop-thread-in-middle/src/main/java/learn/avinash/thread/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../6-Internal-System-Thread-Group/src/main/java/learn/avinash/thread/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../6-Internal-System-Thread-Group/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../7-Daemon-Thread/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../7-Daemon-Thread/src/main/java/learn/avinash/thread/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../8-callback-task/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread/AnanmousCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="e#442#587#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

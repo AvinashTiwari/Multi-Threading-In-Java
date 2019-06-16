@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="338a0fa0-34c6-4464-b7a5-335aec9908bb" name="Default Changelist" comment="" />
+    <list default="true" id="338a0fa0-34c6-4464-b7a5-335aec9908bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../9-dead-lock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-dead-lock/src/main/java/lean/avinash/deadlock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../9-dead-lock/src/main/java/lean/avinash/deadlock/MainDeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8-callback-task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../8-callback-task/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../1-single-thread/target/" />
@@ -12,6 +19,7 @@
     <ignored path="$PROJECT_DIR$/../6-Internal-System-Thread-Group/target/" />
     <ignored path="$PROJECT_DIR$/../7-Daemon-Thread/target/" />
     <ignored path="$PROJECT_DIR$/../8-callback-task/target/" />
+    <ignored path="$PROJECT_DIR$/../9-dead-lock/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,28 +32,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../8-callback-task/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/../9-dead-lock/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread/Main.java">
+        <entry file="file://$PROJECT_DIR$/../9-dead-lock/src/main/java/lean/avinash/deadlock/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="247">
+              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread/AnanmousCall.java">
+        <entry file="file://$PROJECT_DIR$/../9-dead-lock/src/main/java/lean/avinash/deadlock/MainDeadLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="434">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -77,6 +81,8 @@
         <option value="$PROJECT_DIR$/../7-Daemon-Thread/src/main/java/learn/avinash/thread/Main.java" />
         <option value="$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread/Main.java" />
         <option value="$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread/AnanmousCall.java" />
+        <option value="$PROJECT_DIR$/../9-dead-lock/src/main/java/lean/avinash/deadlock/Main.java" />
+        <option value="$PROJECT_DIR$/../9-dead-lock/src/main/java/lean/avinash/deadlock/MainDeadLock.java" />
       </list>
     </option>
   </component>
@@ -100,63 +106,64 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8-callback-task" type="462c0819:PsiDirectoryNode" />
+              <item name="9-dead-lock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8-callback-task" type="462c0819:PsiDirectoryNode" />
+              <item name="9-dead-lock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8-callback-task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8-callback-task" type="462c0819:PsiDirectoryNode" />
+              <item name="9-dead-lock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8-callback-task" type="462c0819:PsiDirectoryNode" />
+              <item name="9-dead-lock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="8-callback-task" type="462c0819:PsiDirectoryNode" />
+              <item name="9-dead-lock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="AnanmousCall.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="deadlock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="9-dead-lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="deadlock" type="462c0819:PsiDirectoryNode" />
+              <item name="MainDeadLock.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../8-callback-task/src/main/java/learn/avinash/thread" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../9-dead-lock/src/main/java/lean/avinash/deadlock" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MultiThreading\Multi-Threading-In-Java\2_New_Course_on_Threading\9-dead-lock\src\main\java\lean\avinash\deadlock" />
       <recent name="E:\MultiThreading\Multi-Threading-In-Java\2_New_Course_on_Threading\8-callback-task\src\main\java\learn\avinash\thread" />
       <recent name="E:\MultiThreading\Multi-Threading-In-Java\2_New_Course_on_Threading\4-sample-executor-service\src\main\java\learn\avinash\thread" />
     </key>
@@ -173,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.MainDeadLock">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
       <module name="6-Internal-System-Thread-Group" />
@@ -200,6 +207,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lean.avinash.deadlock.Main" />
+      <module name="9-dead-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lean.avinash.deadlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
       <module name="_3multi-thread-concurrency" />
@@ -213,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.SingleThread" />
-      <module name="1-single-thread" />
+    <configuration name="MainDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lean.avinash.deadlock.MainDeadLock" />
+      <module name="9-dead-lock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learn.avinash.thread.*" />
+          <option name="PATTERN" value="lean.avinash.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,10 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainDeadLock" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SingleThread" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +272,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.295302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3033557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -392,7 +413,7 @@
     <entry file="file://$PROJECT_DIR$/../8-callback-task/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -407,6 +428,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../9-dead-lock/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../9-dead-lock/src/main/java/lean/avinash/deadlock/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../9-dead-lock/src/main/java/lean/avinash/deadlock/MainDeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>

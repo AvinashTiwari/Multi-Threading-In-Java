@@ -3,18 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>learn-java-thread</artifactId>
+        <artifactId>8-callback-task</artifactId>
         <groupId>learn.avinash.saprk</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../Root_Of_New_course/pom.xml</relativePath>
+        <relativePath>../8-callback-task/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>8-callback-task</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>../9-dead-lock</module>
-    </modules>
+    <artifactId>9-dead-lock</artifactId>
 
 
 </project>

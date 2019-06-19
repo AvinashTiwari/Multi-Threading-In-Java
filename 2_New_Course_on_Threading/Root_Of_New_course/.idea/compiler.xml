@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="9-dead-lock" />
-        <module name="1-single-thread" />
+        <module name="6-Internal-System-Thread-Group" />
+        <module name="10-producer-consumer" />
         <module name="2-design-multi-thread" />
         <module name="5-stop-thread-in-middle" />
-        <module name="_3multi-thread-concurrency" />
+        <module name="1-single-thread" />
         <module name="7-Daemon-Thread" />
+        <module name="_3multi-thread-concurrency" />
         <module name="4-sample-executor-service" />
-        <module name="6-Internal-System-Thread-Group" />
+        <module name="9-dead-lock" />
       </profile>
     </annotationProcessing>
   </component>

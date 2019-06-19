@@ -15,6 +15,7 @@
         <module>../6-Internal-System-Thread-Group</module>
         <module>../7-Daemon-Thread</module>
         <module>../8-callback-task</module>
+        <module>../10-producer-consumer</module>
     </modules>
 
 

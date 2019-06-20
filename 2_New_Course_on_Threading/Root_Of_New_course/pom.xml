@@ -16,6 +16,7 @@
         <module>../7-Daemon-Thread</module>
         <module>../8-callback-task</module>
         <module>../10-producer-consumer</module>
+        <module>../11-blocking-queue</module>
     </modules>
 
 

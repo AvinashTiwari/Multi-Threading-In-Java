@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338a0fa0-34c6-4464-b7a5-335aec9908bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../10-producer-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10-producer-consumer/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11-blocking-queue/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11-blocking-queue/src/main/java/learn/avinash/thread/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -20,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/../8-callback-task/target/" />
     <ignored path="$PROJECT_DIR$/../9-dead-lock/target/" />
     <ignored path="$PROJECT_DIR$/../10-producer-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/../11-blocking-queue/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,26 +32,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../10-producer-consumer/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../10-producer-consumer/src/main/java/Main.java">
+        <entry file="file://$PROJECT_DIR$/../11-blocking-queue/src/main/java/learn/avinash/thread/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+            <state relative-caret-position="468">
+              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#1219#1220#0" expanded="true" />
-                <element signature="e#1253#1254#0" expanded="true" />
-                <element signature="e#1583#1584#0" expanded="true" />
-                <element signature="e#1617#1618#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#1467#1475#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +81,7 @@
         <option value="$PROJECT_DIR$/../9-dead-lock/src/main/java/lean/avinash/deadlock/MainDeadLock.java" />
         <option value="$PROJECT_DIR$/../10-producer-consumer/src/main/java/learn.avinash.thread.fxml" />
         <option value="$PROJECT_DIR$/../10-producer-consumer/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/../11-blocking-queue/src/main/java/learn/avinash/thread/Main.java" />
       </list>
     </option>
   </component>
@@ -117,25 +111,18 @@
           <expand>
             <path>
               <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="10-producer-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="11-blocking-queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="10-producer-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="11-blocking-queue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="10-producer-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="10-producer-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="11-blocking-queue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -168,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainDeadLock">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
       <module name="6-Internal-System-Thread-Group" />
@@ -208,9 +195,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
-      <module name="_3multi-thread-concurrency" />
+      <module name="11-blocking-queue" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="learn.avinash.thread.*" />
@@ -236,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.MainDeadLock" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +247,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30738255" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31208053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -436,15 +423,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../10-producer-consumer/src/main/java/learn.avinash.thread.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../10-producer-consumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../10-producer-consumer/src/main/java/learn.avinash.thread.fxml" />
+    <entry file="file://$PROJECT_DIR$/../11-blocking-queue/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../10-producer-consumer/src/main/java/Main.java">
@@ -461,6 +441,24 @@
             <element signature="e#1253#1254#0" expanded="true" />
             <element signature="e#1583#1584#0" expanded="true" />
             <element signature="e#1617#1618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10-producer-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../11-blocking-queue/src/main/java/learn/avinash/thread/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#1467#1475#0" expanded="true" />
           </folding>
         </state>
       </provider>

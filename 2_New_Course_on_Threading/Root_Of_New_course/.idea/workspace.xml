@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338a0fa0-34c6-4464-b7a5-335aec9908bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../11-blocking-queue/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11-blocking-queue/src/main/java/learn/avinash/thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12-priority-blocking-queue/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12-priority-blocking-queue/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13-fork-join/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13-fork-join/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -21,6 +23,8 @@
     <ignored path="$PROJECT_DIR$/../9-dead-lock/target/" />
     <ignored path="$PROJECT_DIR$/../10-producer-consumer/target/" />
     <ignored path="$PROJECT_DIR$/../11-blocking-queue/target/" />
+    <ignored path="$PROJECT_DIR$/../12-priority-blocking-queue/target/" />
+    <ignored path="$PROJECT_DIR$/../13-fork-join/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +37,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../11-blocking-queue/src/main/java/learn/avinash/thread/Main.java">
+        <entry file="file://$PROJECT_DIR$/../13-fork-join/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+            <state relative-caret-position="400">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#1467#1475#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,6 +81,8 @@
         <option value="$PROJECT_DIR$/../10-producer-consumer/src/main/java/learn.avinash.thread.fxml" />
         <option value="$PROJECT_DIR$/../10-producer-consumer/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/../11-blocking-queue/src/main/java/learn/avinash/thread/Main.java" />
+        <option value="$PROJECT_DIR$/../12-priority-blocking-queue/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/../13-fork-join/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -105,30 +106,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="11-blocking-queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="11-blocking-queue" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-java-thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="11-blocking-queue" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,20 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
-      <module name="6-Internal-System-Thread-Group" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.avinash.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.avinash.thread.Main" />
       <module name="8-callback-task" />
@@ -208,6 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="12-priority-blocking-queue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lean.avinash.deadlock.MainDeadLock" />
       <module name="9-dead-lock" />
@@ -223,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.MainDeadLock" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +221,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31208053" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32147652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -459,6 +433,40 @@
             <element signature="e#866#867#0" expanded="true" />
             <element signature="e#900#901#0" expanded="true" />
             <element signature="e#1467#1475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../12-priority-blocking-queue/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../13-fork-join/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../12-priority-blocking-queue/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#772#781#0" expanded="true" />
+            <element signature="e#1069#1078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../13-fork-join/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

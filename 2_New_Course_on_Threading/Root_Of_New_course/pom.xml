@@ -17,6 +17,7 @@
         <module>../8-callback-task</module>
         <module>../10-producer-consumer</module>
         <module>../11-blocking-queue</module>
+        <module>../12-priority-blocking-queue</module>
     </modules>
 
 

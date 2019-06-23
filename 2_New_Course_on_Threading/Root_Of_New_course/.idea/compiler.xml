@@ -15,6 +15,7 @@
         <module name="7-Daemon-Thread" />
         <module name="_3multi-thread-concurrency" />
         <module name="4-sample-executor-service" />
+        <module name="13-fork-join" />
         <module name="6-Internal-System-Thread-Group" />
       </profile>
     </annotationProcessing>
